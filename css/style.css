@@ -1,0 +1,183 @@
+/*  */
+
+:root {
+    --header-color: #212121;
+    --text-color: #757575;
+    --second-color: #ffffff;
+    --accent-color: #2196F3;
+}
+
+body {
+    color: var(--text-color);
+    background-color: #F5F5F5;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    color: var(--header-color);
+}
+
+/* header */
+
+.header {}
+
+.header__logo {}
+
+.header__text {
+    color: #000000;
+}
+
+.header__web {
+    color: var(--accent-color);
+}
+
+/* menu */
+
+.menu {}
+
+.menu__list {}
+
+.menu__item {}
+
+.menu__link {
+    color: var(--header-color);
+}
+
+.menu__link:hover,
+.menu__link:focus {
+    color: var(--accent-color);
+}
+
+/* contacts */
+
+.contacts {}
+
+.contacts__item {}
+
+.contacts__link {
+    color: var(--text-color);
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+    color: var(--accent-color);
+}
+
+/* main */
+
+.main {}
+
+/* banner */
+
+.banner {
+    background-color: #2F303A;
+}
+
+.banner__title {
+    color: var(--second-color);
+    text-transform: uppercase;
+}
+
+.banner__button {
+    color: var(--second-color);
+
+    background-color: var(--accent-color);
+    padding: 10px 32px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* achievements */
+
+.achievements {}
+
+.achievements__list {}
+
+.achievements__item {}
+
+.achievements__title {
+    color: var(--header-color);
+    text-transform: uppercase;
+}
+
+.achievements__text {}
+
+/* work */
+
+.work {}
+
+.work__title {}
+
+.work__list {}
+
+.work__item {}
+
+.work__img {}
+
+/* team */
+
+.team {}
+
+.team__title {}
+
+.team__list {}
+
+.team__item {
+    background-color: var(--second-color);
+}
+
+.team__img {}
+
+.team__name-title {}
+
+.team__text {}
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer__logo {}
+
+.footer__text {
+    color: var(--second-color);
+}
+
+.footer__web {
+    color: var(--accent-color);
+}
+
+.footer__address {}
+
+/* footer address */
+
+.address {}
+
+.address__list {}
+
+.address__item {}
+
+.address__link {
+    color: var(--second-color);
+}
+
+.address__link-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* visually-hidden */
+
+.visually-hidden {}
+
+
+
